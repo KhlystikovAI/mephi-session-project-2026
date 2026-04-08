@@ -1,0 +1,11 @@
+апр 08 11:51:55 mephi-2026.domain.local systemd[1]: Starting nginx.service - The nginx HTTP and reverse proxy server...
+апр 08 11:51:56 mephi-2026.domain.local nginx[2443]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+апр 08 11:51:56 mephi-2026.domain.local nginx[2443]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+апр 08 11:51:56 mephi-2026.domain.local systemd[1]: Started nginx.service - The nginx HTTP and reverse proxy server.
+апр 08 14:28:07 mephi-2026.domain.local systemd[1]: Stopping nginx.service - The nginx HTTP and reverse proxy server...
+апр 08 14:28:07 mephi-2026.domain.local systemd[1]: nginx.service: Deactivated successfully.
+апр 08 14:28:07 mephi-2026.domain.local systemd[1]: Stopped nginx.service - The nginx HTTP and reverse proxy server.
+апр 08 14:28:07 mephi-2026.domain.local systemd[1]: Starting nginx.service - The nginx HTTP and reverse proxy server...
+апр 08 14:28:07 mephi-2026.domain.local nginx[2872]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+апр 08 14:28:07 mephi-2026.domain.local nginx[2872]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+апр 08 14:28:07 mephi-2026.domain.local systemd[1]: Started nginx.service - The nginx HTTP and reverse proxy server.

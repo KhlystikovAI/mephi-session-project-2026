@@ -1,0 +1,38 @@
+    1  ip a
+    2  nmcli con show
+    3  hostnamectl set-hostname mephi-2026.domain.local
+    4  ip route
+    5  hostname -f
+    6  hostnamectl
+    7  cat /etc/hostname
+    8  ping -c 4 8.8.8.8
+    9  ping -c 4 8.8.8.8 > /tmp/network_check.txt
+   10  ping -c 4 192.168.1.1
+   11  ping -c 4 192.168.1.1 >> /tmp/network_check.txt
+   12  uname -m
+   13  dnf download tcpdump.x86_64
+   14  cd /tmp
+   15  dnf download tcpdump.x86_64
+   16  cd ~
+   17  dnf install -y nginx libcap-ng-utils
+   18  sudo dnf install -y nginx libcap-ng-utils
+   19  sudo rpm -ivh tcpdump-*.x86_64.rpm
+   20  sudo rpm -Uvh tcpdump-*.x86_64.rpm
+   21  lsblk
+   22  sudo nano /etc/nginx/nginx.conf
+   23  ls -ld /data/mephi-web
+   24  ls -l /data/mephi-web/index.html
+   25  sudo nginx -t
+   26  sudo systemctl restart nginx
+   27  curl http://localhost
+   28  curl http://192.168.1.100
+   29  curl http://192.168.1.1
+   30  curl http://192.168.1.125
+   31  nmcli con mod ip a
+   32  ip a
+   33  nmcli con mod "ens160" ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.dns 8.8.8.8 ipv4.method manual
+   34  nmcli con down "ens160"
+   35  nmcli con up "ens160"
+   36  ip a
+   37  curl http://192.168.1.100
+   38  history > ~/project_history.txt
